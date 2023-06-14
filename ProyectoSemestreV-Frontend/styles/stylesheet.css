@@ -1,16 +1,44 @@
 /* Estilos personalizados */
 
-footer {
-    background-color: #f8f9fa;
+body {
+    background-color: #ffffff;
+    color: #dc3545;
+}
+
+header {
+    background-color: #dc3545;
     padding: 20px 0;
-    color: #555;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.card {
+    border: 1px solid #dc3545;
+}
+
+.card-title {
+    color: #dc3545;
+}
+
+footer {
+    background-color: #fbfbfb;
+    padding: 20px 0;
+    color: #dc3545;
     font-size: 14px;
 }
 
 .social-icons a {
-    color: #555;
+    color: #dc3545;
     text-decoration: none;
-    margin-right: 10px;
+    margin-inline-end: 10px;
 }
 
 .social-icons a:hover {
@@ -18,5 +46,5 @@ footer {
 }
 
 .text-md-end {
-    text-align: right;
+    text-align: end;
 }

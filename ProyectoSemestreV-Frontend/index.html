@@ -15,11 +15,66 @@
     <link href="styles/stylesheet.css" rel="stylesheet">
     <!--FontAwesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* Estilos personalizados */
+
+        body {
+            background-color: #ffffff;
+            color: #dc3545;
+        }
+
+        header {
+            background-color: #dc3545;
+            padding: 20px 0;
+        }
+
+        .navbar-brand {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+
+        .navbar-brand.title {
+            color: black !important;
+        }
+
+        .btn-primary {
+            background-color: #dc3545 !important;
+            border-color: #dc3545 !important;
+        }
+
+        .card {
+            border: 1px solid #dc3545;
+        }
+
+        .card-title {
+            color: #dc3545;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 20px 0;
+            color: #dc3545;
+            font-size: 14px;
+        }
+
+        .social-icons a {
+            color: #dc3545;
+            text-decoration: none;
+            margin-inline-end: 10px;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+        }
+
+        .text-md-end {
+            text-align: end;
+        }
+    </style>
 </head>
 
 <body>
-
-
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -30,23 +85,18 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
-                    <a class="navbar-brand">Puntos de interes</a>
-                    <button class="btn btn-primary" type="button"
-                        onclick="window.location.href='login.html'">Login</button>
+                    <a class="navbar-brand title">Puntos de Interés</a>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='login.html'">Login</button>
                 </div>
-
             </div>
         </nav>
     </header>
     <br>
-    <p align="center">En la presente pagina podremos observar los puntos de interes de la FESC y informacion sobre
-        ellos</p>
+    <p align="center">En la presente página podremos observar los puntos de interés de la FESC y su información.</p>
     <br>
 
     <main>
-        <article>
-
-        </article>
+        <article></article>
 
         <section class="row justify-content-center">
             <div class="col-lg-4 col-md-6 mb-4">
@@ -54,9 +104,9 @@
                     <img src="img/cafeteria a.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <center>
-                          <h5 class="card-title">Cafeteria bloque A</h5>
-                          <p class="card-text"></p>
-                            <a href="cafeteria a.html" class="btn btn-primary">Ver</a>
+                            <h5 class="card-title">Cafetería bloque A</h5>
+                            <p class="card-text"></p>
+                            <a href="views/cafeteria a.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
@@ -67,9 +117,9 @@
                     <img src="img/cafeteria c.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <center>
-                          <h5 class="card-title">Cafeteria bloque C</h5>
-                          <p class="card-text"></p>
-                            <a href="cafeteria a.html" class="btn btn-primary">Ver</a>
+                            <h5 class="card-title">Cafetería bloque C</h5>
+                            <p class="card-text"></p>
+                            <a href="views/cafeteria c.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
@@ -82,7 +132,7 @@
                         <center>
                             <h5 class="card-title">Biblioteca</h5>
                             <p class="card-text"></p>
-                            <a href="library.html" class="btn btn-primary">Ver</a>
+                            <a href="views/library.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
@@ -95,7 +145,7 @@
                         <center>
                             <h5 class="card-title">Ajedrez</h5>
                             <p class="card-text"></p>
-                            <a href="chess.html" class="btn btn-primary">Ver</a>
+                            <a href="views/chess.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
@@ -106,27 +156,26 @@
                     <img src="img/parking.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <center>
-                          <h5 class="card-title">Parqueadero</h5>
-                          <p class="card-text"></p>
-                            <a href="parking.html" class="btn btn-primary">Ver</a>
+                            <h5 class="card-title">Parqueadero</h5>
+                            <p class="card-text"></p>
+                            <a href="views/parking.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
             </div>
-			
-			
-			<div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
                     <img src="img/source.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <center>
-                          <h5 class="card-title">Fuente</h5>
-                          <p class="card-text"></p>
-                            <a href="source.html" class="btn btn-primary">Ver</a>
+                            <h5 class="card-title">Fuente</h5>
+                            <p class="card-text"></p>
+                            <a href="views/source.html" class="btn btn-primary">Ver</a>
                         </center>
                     </div>
                 </div>
-           </div>
+            </div>
 
         </section>
     </main>
@@ -137,7 +186,7 @@
                 <div class="col-md-6">
                     <h5>Redes Sociales</h5>
                     <div class="social-icons">
-                         <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -149,15 +198,10 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-lrsiPw2TJWbWvDdIvVRMFNvopK+wBjCtQqyOElNl9ZtqviL6WfZ2ioYRD/VTDZ3h"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-        crossorigin="anonymous"></script>
-    <!--FontAwesome-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-
 </body>
 
 </html>
